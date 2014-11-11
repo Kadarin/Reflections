@@ -1,0 +1,11 @@
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows a list of every commit that has ever been done in the repository. If you get the commit IDs with git log, you can use git diff to compare them using git diff.
+
+How might using version control make you more confident to make changes that could break something?
+
+Having a version control system allows a safety net to start over from if you end up horribly breaking something and can't remember exatly how it used to work.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Making modifications to a file and commiting a new version to the repository.
