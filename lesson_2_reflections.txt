@@ -5,3 +5,15 @@ Git sets up a repository folder and begins tracking the contents of the folder. 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is an intermediary that allows you to check your work before committing it. It's a good way to check for errors before adding a new commit to the repository, and potentially bloating it with back commits that are missing files, or have files that shouldn't be there.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area is a good place to review the files you've changed and make sure that all the files are related to a specific logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can be useful if you want to experiment with a new feature, but aren't sure its going to work out. This feature could likely result in a large number of checkins, and would be difficulty to distinquish between other changes related to the master code, such as bug fixes.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help you see which commits are connected and where the parening of various branches came from, which can be useful when trying to merge or integrate changes.
