@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Remote repositories provide a backup offsite that protects against your computer potentially crashing and losing all your work.
