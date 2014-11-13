@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 Remote repositories provide a backup offsite that protects against your computer potentially crashing and losing all your work.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+If other poeple are making changes to our remote repository, you might not want those changes pushed locally. That could cause conflicts and major breaks in your work flow.
