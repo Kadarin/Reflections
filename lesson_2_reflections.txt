@@ -17,3 +17,7 @@ Branches can be useful if you want to experiment with a new feature, but aren't 
 How do the diagrams help you visualize the branch structure?
 
 The diagrams help you see which commits are connected and where the parening of various branches came from, which can be useful when trying to merge or integrate changes.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves a lot of time when there aren't any files in conflicted states. Its also useful for git to tell you which files are in conflicted states, so you don't accidently stomp changes when two people are working on the same bit of code.
